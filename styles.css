@@ -1,0 +1,763 @@
+/* ---------- Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+img { max-width: 100%; display: block; }
+button { font: inherit; }
+ul { list-style: none; margin: 0; padding: 0; }
+
+/* ---------- Tokens ---------- */
+:root {
+  --paper: #e4e1d3;
+  --paper-raised: #f1efe4;
+  --paper-sunken: #d8d4c3;
+  --ink: #1e2420;
+  --ink-soft: #5b5f55;
+  --ink-faint: #8a8d80;
+  --line: #c7c2ae;
+  --accent: #2f5d50;
+  --accent-strong: #1f4038;
+  --accent-warm: #a97c2f;
+  --focus-ring: #2f5d50;
+  --card-shadow: 0 1px 0 rgba(30, 36, 32, 0.06), 0 12px 28px -18px rgba(30, 36, 32, 0.35);
+  --scrim: rgba(20, 24, 21, 0.35);
+  --shelf-highlight: #f0c419;
+  --shelf-highlight-ink: #2a2007;
+  --shelf-highlight-ring: rgba(240, 196, 25, 0.35);
+  --danger: #c8402f;
+  --danger-ink: #fff;
+
+  --tag-literary-bg: #dcd8c8; --tag-literary-fg: #43473d;
+  --tag-scifi-bg: #cfe4dd;    --tag-scifi-fg: #205044;
+  --tag-fantasy-bg: #ded3e6;  --tag-fantasy-fg: #4f3a63;
+  --tag-mystery-bg: #ded0d6;  --tag-mystery-fg: #5a2f42;
+  --tag-horror-bg: #ddc8c4;  --tag-horror-fg: #6b2c22;
+  --tag-romance-bg: #ecd7d9; --tag-romance-fg: #7a3448;
+  --tag-historical-bg: #e6dcc0; --tag-historical-fg: #6b5320;
+
+  --font-display: Iowan Old Style, "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Noto Serif", serif;
+  --font-body: Iowan Old Style, Palatino, "Book Antiqua", Georgia, "Noto Serif", serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", Consolas, "Courier New", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14181a;
+    --paper-raised: #1d2224;
+    --paper-sunken: #0f1214;
+    --ink: #e7e4d8;
+    --ink-soft: #a8a69b;
+    --ink-faint: #767a70;
+    --line: #333837;
+    --accent: #74c2ab;
+    --accent-strong: #94d6c0;
+    --accent-warm: #d8b168;
+    --focus-ring: #94d6c0;
+    --card-shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 20px 40px -20px rgba(0, 0, 0, 0.6);
+    --scrim: rgba(0, 0, 0, 0.55);
+    --shelf-highlight: #ffd43b;
+    --shelf-highlight-ink: #2a2007;
+    --shelf-highlight-ring: rgba(255, 212, 59, 0.3);
+
+    --tag-literary-bg: #2a2e27; --tag-literary-fg: #c9c6b3;
+    --tag-scifi-bg: #163330;    --tag-scifi-fg: #86d8c2;
+    --tag-fantasy-bg: #2c2436;  --tag-fantasy-fg: #cbb2e0;
+    --tag-mystery-bg: #2e2025;  --tag-mystery-fg: #d9a6bd;
+    --tag-horror-bg: #2c1a16;  --tag-horror-fg: #e0a292;
+    --tag-romance-bg: #301f24; --tag-romance-fg: #e3a9b8;
+    --tag-historical-bg: #2b2617; --tag-historical-fg: #e0c583;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #14181a; --paper-raised: #1d2224; --paper-sunken: #0f1214;
+  --ink: #e7e4d8; --ink-soft: #a8a69b; --ink-faint: #767a70; --line: #333837;
+  --accent: #74c2ab; --accent-strong: #94d6c0; --accent-warm: #d8b168; --focus-ring: #94d6c0;
+  --card-shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 20px 40px -20px rgba(0, 0, 0, 0.6);
+  --scrim: rgba(0, 0, 0, 0.55);
+  --shelf-highlight: #ffd43b; --shelf-highlight-ink: #2a2007; --shelf-highlight-ring: rgba(255, 212, 59, 0.3);
+  --tag-literary-bg: #2a2e27; --tag-literary-fg: #c9c6b3;
+  --tag-scifi-bg: #163330;    --tag-scifi-fg: #86d8c2;
+  --tag-fantasy-bg: #2c2436;  --tag-fantasy-fg: #cbb2e0;
+  --tag-mystery-bg: #2e2025;  --tag-mystery-fg: #d9a6bd;
+  --tag-horror-bg: #2c1a16;  --tag-horror-fg: #e0a292;
+  --tag-romance-bg: #301f24; --tag-romance-fg: #e3a9b8;
+  --tag-historical-bg: #2b2617; --tag-historical-fg: #e0c583;
+}
+:root[data-theme="light"] {
+  --paper: #e4e1d3; --paper-raised: #f1efe4; --paper-sunken: #d8d4c3;
+  --ink: #1e2420; --ink-soft: #5b5f55; --ink-faint: #8a8d80; --line: #c7c2ae;
+  --accent: #2f5d50; --accent-strong: #1f4038; --accent-warm: #a97c2f; --focus-ring: #2f5d50;
+  --card-shadow: 0 1px 0 rgba(30, 36, 32, 0.06), 0 12px 28px -18px rgba(30, 36, 32, 0.35);
+  --scrim: rgba(20, 24, 21, 0.35);
+  --shelf-highlight: #f0c419; --shelf-highlight-ink: #2a2007; --shelf-highlight-ring: rgba(240, 196, 25, 0.35);
+  --tag-literary-bg: #dcd8c8; --tag-literary-fg: #43473d;
+  --tag-scifi-bg: #cfe4dd;    --tag-scifi-fg: #205044;
+  --tag-fantasy-bg: #ded3e6;  --tag-fantasy-fg: #4f3a63;
+  --tag-mystery-bg: #ded0d6;  --tag-mystery-fg: #5a2f42;
+  --tag-horror-bg: #ddc8c4;  --tag-horror-fg: #6b2c22;
+  --tag-romance-bg: #ecd7d9; --tag-romance-fg: #7a3448;
+  --tag-historical-bg: #e6dcc0; --tag-historical-fg: #6b5320;
+}
+
+.text-balance { text-wrap: balance; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+.skip-link-wrap { position: relative; }
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  background: var(--accent);
+  color: var(--paper-raised);
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  transition: top 0.15s ease;
+  z-index: 100;
+}
+.skip-link:focus { top: 1rem; }
+
+/* ---------- Header ---------- */
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+.site-header__inner {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 0;
+  font-family: var(--font-display);
+}
+.brand__mark {
+  display: inline-block;
+  width: 1.3em;
+  font-size: 2.1rem;
+  color: var(--accent-warm);
+  text-align: center;
+}
+.brand__name {
+  display: inline-flex;
+  font-size: 1.875rem;
+  letter-spacing: 0.01em;
+}
+.brand__wave { display: inline-flex; }
+.wl {
+  display: inline-block;
+}
+.brand:hover .wl {
+  animation: letter-wave 0.6s ease;
+  animation-delay: calc(var(--i) * 40ms);
+}
+@keyframes letter-wave {
+  0% { transform: translateY(0); }
+  35% { transform: translateY(-0.32em); }
+  65% { transform: translateY(0.06em); }
+  100% { transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand:hover .wl { animation: none; }
+}
+.saved-fab {
+  position: fixed;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 45;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 50%;
+  background: var(--shelf-highlight);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.saved-fab:hover {
+  transform: translateY(-2px) scale(1.06);
+  box-shadow: 0 14px 30px -8px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.saved-fab:active { transform: translateY(0) scale(0.97); }
+.saved-fab:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+.saved-fab__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.saved-fab__count {
+  position: absolute;
+  top: -0.2rem;
+  right: -0.2rem;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  padding: 0 0.3rem;
+  border: 2px solid var(--paper);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .saved-fab { transition: none; }
+  .saved-fab:hover { transform: none; }
+}
+
+/* ---------- Layout ---------- */
+.main {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.intro { max-width: 38rem; margin-bottom: 2rem; }
+.intro__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-weight: 600;
+  margin: 0 0 0.6rem;
+}
+.intro__body {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  margin: 0;
+  max-width: 34rem;
+}
+
+/* ---------- Filters ---------- */
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 1.25rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin-bottom: 2.25rem;
+}
+.filters__group--inline {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.filters__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  flex: 1 1 8rem;
+}
+.filters__label {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem;
+}
+.filters__field .filters__label { margin-bottom: 0; }
+
+.select {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease,
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+.select:hover { border-color: var(--accent); }
+.select:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+/* Pop with the same yellow highlight as the chips, once a real era is chosen. */
+.select:has(option:checked:not([value=""])) {
+  background: var(--shelf-highlight);
+  border-color: var(--shelf-highlight);
+  color: var(--shelf-highlight-ink);
+  font-weight: 700;
+  transform: scale(1.06);
+  box-shadow: 0 6px 16px -6px rgba(0, 0, 0, 0.45), 0 0 0 3px var(--shelf-highlight-ring);
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.42rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 0.88rem;
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.chip small { color: var(--ink-faint); font-size: 0.78em; }
+.chip input {
+  position: absolute;
+  opacity: 0;
+  width: 1px; height: 1px;
+}
+.chip:has(input:checked) {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper-raised);
+}
+.chip:has(input:checked) small { color: var(--paper-raised); opacity: 0.75; }
+.chip:has(input:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+.chip:hover { border-color: var(--accent); }
+
+/* Shelf (genre) and Length chips pop with a yellow highlight when selected. */
+#genre-filters .chip,
+.chip:has(input[name="length"]) {
+  transition: border-color 0.15s ease, background 0.15s ease,
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+#genre-filters .chip:has(input:checked),
+.chip:has(input[name="length"]:checked) {
+  background: var(--shelf-highlight);
+  border-color: var(--shelf-highlight);
+  color: var(--shelf-highlight-ink);
+  font-weight: 700;
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px -6px rgba(0, 0, 0, 0.45), 0 0 0 3px var(--shelf-highlight-ring);
+}
+#genre-filters .chip:has(input:checked) small,
+.chip:has(input[name="length"]:checked) small {
+  color: var(--shelf-highlight-ink);
+  opacity: 0.8;
+}
+@media (prefers-reduced-motion: reduce) {
+  #genre-filters .chip,
+  .chip:has(input[name="length"]),
+  .select {
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  #genre-filters .chip:has(input:checked),
+  .chip:has(input[name="length"]:checked),
+  .select:has(option:checked:not([value=""])) {
+    transform: none;
+  }
+}
+
+.link-btn {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-family: var(--font-ui);
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease,
+    transform 0.1s ease;
+}
+.link-btn:hover { border-color: var(--shelf-highlight); color: var(--shelf-highlight); }
+.link-btn:active {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: var(--danger-ink);
+  transform: scale(0.96);
+}
+
+/* ---------- Stage & Book card ---------- */
+.stage-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.75rem;
+}
+.stage-section[hidden] {
+  display: none;
+}
+
+.book-card {
+  width: 100%;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  transform-origin: center;
+  transition: transform 0.32s cubic-bezier(0.2, 0.7, 0.3, 1), opacity 0.32s ease, filter 0.32s ease;
+}
+.book-card.is-flashing {
+  animation: card-flash-pulse 0.16s ease-in-out infinite;
+}
+.book-card.is-settling {
+  animation: settle 0.28s ease;
+}
+@keyframes card-flash-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.985); }
+}
+@keyframes settle {
+  from { transform: scale(1.015); }
+  to { transform: scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .book-card, .book-card.is-flashing, .book-card.is-settling {
+    transition: none;
+    animation: none;
+    transform: none;
+    opacity: 1;
+    filter: none;
+  }
+}
+
+.book-card__cover {
+  width: 9.5rem;
+  aspect-ratio: 2 / 3;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--paper-sunken);
+  flex-shrink: 0;
+  align-self: center;
+}
+.book-card__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cover-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background:
+    repeating-linear-gradient(135deg, transparent 0 10px, rgba(0,0,0,0.03) 10px 11px),
+    var(--paper-sunken);
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+}
+.cover-fallback__title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.cover-fallback__author {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.book-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.tag {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+.tag--literary { background: var(--tag-literary-bg); color: var(--tag-literary-fg); }
+.tag--sci-fi { background: var(--tag-scifi-bg); color: var(--tag-scifi-fg); }
+.tag--fantasy { background: var(--tag-fantasy-bg); color: var(--tag-fantasy-fg); }
+.tag--mystery { background: var(--tag-mystery-bg); color: var(--tag-mystery-fg); }
+.tag--horror { background: var(--tag-horror-bg); color: var(--tag-horror-fg); }
+.tag--romance { background: var(--tag-romance-bg); color: var(--tag-romance-fg); }
+.tag--historical { background: var(--tag-historical-bg); color: var(--tag-historical-fg); }
+
+.book-card__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3.4vw, 1.9rem);
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.15;
+  min-height: 1.15em;
+}
+.book-card__byline {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.byline-sep { margin: 0 0.5em; color: var(--ink-faint); }
+
+.book-card__synopsis {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink);
+  max-width: 42em;
+  margin: 0;
+}
+
+.book-card__actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.1rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: transform 0.1s ease, background 0.15s ease, border-color 0.15s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn--primary {
+  background: transparent;
+  border-color: var(--ink);
+  color: var(--ink);
+}
+.btn--primary:hover { border-color: var(--shelf-highlight); color: var(--shelf-highlight); }
+.btn--secondary {
+  background: transparent;
+  border-color: var(--ink);
+  color: var(--ink);
+}
+.btn--secondary:hover { border-color: var(--shelf-highlight); color: var(--shelf-highlight); }
+.btn--ghost {
+  background: var(--paper-sunken);
+  color: var(--ink-soft);
+  border-color: var(--line);
+}
+.btn--ghost:hover { color: var(--shelf-highlight-ink); border-color: var(--shelf-highlight); background: var(--shelf-highlight); }
+.btn--ghost[aria-pressed="true"] {
+  background: var(--tag-scifi-bg);
+  color: var(--tag-scifi-fg);
+  border-color: transparent;
+}
+.btn--large {
+  padding: 0.85rem 1.6rem;
+  font-size: 1.02rem;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.roll-controls {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ---------- Empty state ---------- */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  background: var(--paper-raised);
+}
+.empty-state__title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+}
+.empty-state__body {
+  color: var(--ink-soft);
+  margin: 0 0 1.25rem;
+}
+
+/* ---------- Saved drawer ---------- */
+.saved-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: min(22rem, 90vw);
+  background: var(--paper-raised);
+  border-left: 1px solid var(--line);
+  box-shadow: -12px 0 32px -18px rgba(0,0,0,0.4);
+  transform: translateX(100%);
+  transition: transform 0.25s ease;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+}
+.saved-panel.is-open { transform: translateX(0); }
+.saved-panel-scrim {
+  position: fixed;
+  inset: 0;
+  background: var(--scrim);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 40;
+}
+.saved-panel.is-open ~ .saved-panel-scrim,
+.saved-panel.is-open + .saved-panel-scrim {
+  opacity: 1;
+  pointer-events: auto;
+}
+.saved-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+.saved-panel__header h2 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+.icon-btn:hover { color: var(--ink); }
+
+.saved-list {
+  overflow-y: auto;
+  padding: 0.5rem 0.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.saved-empty {
+  color: var(--ink-faint);
+  font-size: 0.9rem;
+  padding: 1rem 0.5rem;
+}
+.saved-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 8px;
+  padding: 0.15rem;
+}
+.saved-item:hover { background: var(--paper-sunken); }
+.saved-item__link {
+  flex: 1;
+  text-align: left;
+  background: none;
+  border: none;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0.55rem 0.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  border-radius: 6px;
+}
+.saved-item__link span { color: var(--ink-soft); font-size: 0.85em; }
+.saved-item__remove {
+  background: none;
+  border: none;
+  color: var(--ink-faint);
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.saved-item__remove:hover { color: var(--tag-horror-fg); background: var(--tag-horror-bg); }
+
+/* ---------- Footer ---------- */
+.site-footer {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2.5rem;
+  color: var(--ink-faint);
+  font-size: 0.82rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (min-width: 640px) {
+  .book-card {
+    flex-direction: row;
+    padding: 2rem;
+    gap: 1.75rem;
+  }
+  .book-card__cover { align-self: flex-start; }
+  .filters__group--inline { max-width: 24rem; }
+}
+
+@media (max-width: 380px) {
+  .book-card__cover { width: 7.5rem; }
+}

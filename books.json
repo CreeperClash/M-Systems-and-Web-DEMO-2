@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "b001",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "genres": ["romance", "literary", "historical"],
+    "pages": 320,
+    "synopsis": "In the English countryside, a sharp-tongued young woman navigates a society obsessed with marrying its daughters off well. A proud, wealthy newcomer offends her within minutes of their first meeting, and neither is inclined to forgive the other. Over a series of balls, letters, and family embarrassments, both are forced to reconsider the snap judgments they made. It's a comedy of manners with real teeth, about how pride and first impressions can blind even clever people.",
+    "coverUrl": null
+  },
+  {
+    "id": "b002",
+    "title": "Mrs Dalloway",
+    "author": "Virginia Woolf",
+    "year": 1925,
+    "genres": ["literary"],
+    "pages": 200,
+    "synopsis": "Over the course of a single June day in London, a society hostess moves through the city buying flowers for a party she's throwing that evening. Her thoughts drift constantly into the past, to a choice she made decades earlier and the life she didn't choose. Elsewhere in the city, a shell-shocked veteran experiences the same day very differently. Woolf weaves the two threads together to ask what a life adds up to when you look at it closely enough.",
+    "coverUrl": null
+  },
+  {
+    "id": "b003",
+    "title": "Beloved",
+    "author": "Toni Morrison",
+    "year": 1987,
+    "genres": ["literary", "historical", "horror"],
+    "pages": 320,
+    "synopsis": "In post-Civil War Ohio, a formerly enslaved woman lives with her daughter in a house haunted by something more than memory. When a mysterious young woman arrives at their door, she unsettles the fragile peace the family has built. The novel moves back and forth between the horrors of the past and the difficulty of building a self after them. It's a ghost story in the truest sense, about what refuses to stay buried.",
+    "coverUrl": null
+  },
+  {
+    "id": "b004",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "genres": ["literary"],
+    "pages": 180,
+    "synopsis": "A young Midwesterner moves to Long Island and finds himself pulled into the orbit of his enormously wealthy, endlessly mysterious neighbor. Extravagant parties spill out of the neighbor's mansion every weekend, but no one seems to know quite who he is or where his money came from. Across the bay, a married woman from the narrator's past becomes the key to understanding what the man actually wants. It's a story about reinvention, longing, and the distance between the person you build and the person you were.",
+    "coverUrl": null
+  },
+  {
+    "id": "b005",
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "genres": ["literary", "fantasy"],
+    "pages": 420,
+    "synopsis": "The Buendía family founds the town of Macondo and lives there across seven generations, as insomnia plagues, gypsies bring ice and flying carpets, and the same handful of names and fates recur down the family tree. Wars come and go, a banana company arrives and leaves scars, and the line between memory and myth blurs completely. Told with total sincerity even at its strangest, it reads like a family's oral history as remembered by someone who believed all of it. It became the defining work of magical realism for good reason.",
+    "coverUrl": null
+  },
+  {
+    "id": "b006",
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "genres": ["literary", "historical"],
+    "pages": 880,
+    "synopsis": "In a fictional English town on the eve of political reform, an idealistic young woman marries a much older scholar hoping to share in his life's great work, only to find the marriage smaller than she imagined. Meanwhile, a newly arrived doctor with ambitious reforming ideas of his own gets tangled in the town's gossip and debts. Eliot follows a whole web of townspeople whose private disappointments and quiet compromises add up to something larger. Few novels are this generous about ordinary human failure.",
+    "coverUrl": null
+  },
+  {
+    "id": "b007",
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "year": 1989,
+    "genres": ["literary", "historical"],
+    "pages": 260,
+    "synopsis": "An aging English butler sets off on a motoring trip across the countryside, using the journey to reflect on decades of service to a lord whose reputation did not age well. His memories keep circling back to a housekeeper he worked alongside for years and a closeness with her he never let himself acknowledge. Told in a voice of scrupulous, almost painful restraint, the novel is about a man auditing his own life and discovering how much of it was spent protecting the wrong things. It's a quiet book that builds to real heartbreak.",
+    "coverUrl": null
+  },
+  {
+    "id": "b008",
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "year": 1877,
+    "genres": ["literary", "romance", "historical"],
+    "pages": 864,
+    "synopsis": "A married aristocrat in Russian high society falls into a consuming affair with a cavalry officer, setting her on a collision course with the rigid social world she was raised in. Running alongside her story is that of a landowner struggling to find meaning in farming, faith, and marriage far from the capital's glittering circles. Tolstoy moves between these two very different pursuits of happiness to ask what a well-lived life actually requires. It's as sharp about farming and politics as it is about the human heart.",
+    "coverUrl": null
+  },
+  {
+    "id": "b009",
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "year": 1927,
+    "genres": ["literary"],
+    "pages": 210,
+    "synopsis": "A large family and their houseguests spend a summer at a home on the Scottish coast, with a trip across the bay to a lighthouse perpetually promised and perpetually postponed. Years pass, the house sits empty, and the people who once filled it are changed by time in ways both small and enormous. Woolf is less interested in what happens than in how it feels to be a particular consciousness at a particular moment. It's a novel about time, loss, and the private meanings people attach to ordinary days.",
+    "coverUrl": null
+  },
+  {
+    "id": "b010",
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "year": 1963,
+    "genres": ["literary"],
+    "pages": 240,
+    "synopsis": "A talented young writer spends a summer interning at a magazine in New York City, expecting it to be the beginning of the glamorous life she's been promised. Instead she finds herself increasingly detached from her own ambitions, relationships, and sense of self. Returning home, her depression deepens into a crisis that pulls her into psychiatric treatment. Plath's only novel is unflinching and, at times, unexpectedly funny about a mind slowly losing its footing.",
+    "coverUrl": null
+  },
+  {
+    "id": "b011",
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "year": 1987,
+    "genres": ["literary", "romance"],
+    "pages": 296,
+    "synopsis": "Hearing an old song on a plane, a man is pulled back into memories of his student years in late-1960s Tokyo. He recalls two very different women in his life at the time: one fragile and haunted by a shared loss from their adolescence, the other vividly, insistently alive. The novel moves gently through first love, grief, and the particular loneliness of being young in a crowded city. It's Murakami at his most grounded, with none of his usual surrealism.",
+    "coverUrl": null
+  },
+  {
+    "id": "b012",
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "year": 2015,
+    "genres": ["literary"],
+    "pages": 720,
+    "synopsis": "Four college friends move to New York and build overlapping lives and careers over several decades, but the novel gradually centers on one of them, a brilliant lawyer carrying a past he refuses to fully discuss. As the friends succeed, marry, and grow older around him, the weight of what he's hidden becomes harder to keep contained. It's an intensely close study of friendship, trauma, and the limits of what love can repair. Readers tend to describe it as devastating and unforgettable in the same breath.",
+    "coverUrl": null
+  },
+  {
+    "id": "b013",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "genres": ["literary", "historical"],
+    "pages": 372,
+    "synopsis": "In 1970s Kabul, a boy from a privileged family and the son of his father's servant are inseparable until a single afternoon during a kite-fighting tournament changes everything between them. Decades later, living safely in America, the narrator receives a call urging him back to a homeland transformed by war and asking him to make right what he left broken. The novel moves between the innocence of childhood friendship and the harder work of adult atonement. It's as much about Afghanistan's upheavals as it is about one uneasy conscience.",
+    "coverUrl": null
+  },
+  {
+    "id": "b014",
+    "title": "White Teeth",
+    "author": "Zadie Smith",
+    "year": 2000,
+    "genres": ["literary"],
+    "pages": 448,
+    "synopsis": "Two wartime friends in North London, one English and one Bangladeshi, raise their families a few streets apart as the twentieth century turns into the twenty-first. Their children and grandchildren tangle with faith, activism, genetic science, and each other in ways their parents never anticipated. Smith writes the city as a single sprawling organism, funny and chaotic and generous toward nearly everyone in it. It's a big, warm, argumentative novel about what gets inherited and what doesn't.",
+    "coverUrl": null
+  },
+  {
+    "id": "b015",
+    "title": "The Goldfinch",
+    "author": "Donna Tartt",
+    "year": 2013,
+    "genres": ["literary", "mystery"],
+    "pages": 771,
+    "synopsis": "A boy survives an explosion that kills his mother, and in the chaos afterward walks away with a small, priceless Dutch painting he was never meant to take. The painting becomes both a comfort and a burden as he's shuttled between guardians, drawn into the antiques trade, and pulled toward increasingly dangerous company. Tartt tracks him from adolescence into a compromised adulthood shaped entirely by that one impulsive theft. It's a sprawling, obsessive novel about art, grief, and the objects we can't let go of.",
+    "coverUrl": null
+  },
+  {
+    "id": "b016",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "year": 1965,
+    "genres": ["sci-fi", "fantasy"],
+    "pages": 412,
+    "synopsis": "A noble family is given stewardship of a brutal desert planet that happens to be the only source of the universe's most valuable substance. When betrayal strips the young heir of everything, he's forced into the deep desert among a fiercely independent native people. There, he begins to grow into a role that's part messiah, part weapon, in ways that unsettle him as much as they empower him. It's political intrigue, ecology, and prophecy braided into one of the genre's great epics.",
+    "coverUrl": null
+  },
+  {
+    "id": "b017",
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "year": 1984,
+    "genres": ["sci-fi"],
+    "pages": 271,
+    "synopsis": "A washed-up computer hacker, his nervous system burned out as punishment for a past betrayal, is offered a cure in exchange for one last job. The job pulls him into a heist against a shadowy artificial intelligence, alongside a razor-fingered mercenary and a cast of criminals with their own agendas. Gibson's neon, corporate-controlled future practically invented the visual language of cyberpunk. It's a fast, hard-edged novel about identity and consciousness at the point where flesh meets machine.",
+    "coverUrl": null
+  },
+  {
+    "id": "b018",
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "year": 1969,
+    "genres": ["sci-fi"],
+    "pages": 304,
+    "synopsis": "An envoy from a interstellar alliance travels to a frozen planet to convince its people to join a wider federation of worlds, but finds himself with almost no framework for understanding them. The planet's inhabitants have no fixed gender, taking on male or female characteristics only briefly each month, and the envoy's assumptions about sex, politics, and loyalty are tested at every turn. A dangerous trek across the ice with a disgraced local politician becomes the crucible where real trust finally forms. It's a foundational work of thoughtful, humane science fiction.",
+    "coverUrl": null
+  },
+  {
+    "id": "b019",
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "year": 1951,
+    "genres": ["sci-fi"],
+    "pages": 255,
+    "synopsis": "A mathematician develops a science that can predict the collective behavior of entire populations, and uses it to foresee the collapse of a vast galactic empire. To shorten the coming dark age, he establishes a colony at the edge of the galaxy entrusted with preserving civilization's knowledge. The novel follows the colony across generations as it faces crises the mathematician anticipated long before his death. It's less about individual heroes than about the slow, careful engineering of history itself.",
+    "coverUrl": null
+  },
+  {
+    "id": "b020",
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "year": 1992,
+    "genres": ["sci-fi"],
+    "pages": 470,
+    "synopsis": "In a near-future America run by franchises and private enclaves, a pizza-delivery hacker and sometime swordsman stumbles onto a designer drug that scrambles minds in both the real world and a shared virtual reality. Tracing the drug's origins pulls him into ancient Sumerian myth, corporate conspiracy, and a genuinely terrifying idea about how language itself can be weaponized. A fearless skateboard courier ends up just as central to unraveling the plot. It's a fast, funny, idea-stuffed novel that helped define what the word \"metaverse\" would come to mean.",
+    "coverUrl": null
+  },
+  {
+    "id": "b021",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "year": 2011,
+    "genres": ["sci-fi"],
+    "pages": 384,
+    "synopsis": "An astronaut is presumed dead and left behind after a dust storm forces his crew to abort their mission to Mars. Alone on the planet with limited supplies and no way to signal Earth, he has to apply every bit of botany, chemistry, and engineering he knows just to survive long enough to be rescued. Told largely through his log entries, the novel is equal parts survival thriller and celebration of resourceful problem-solving. It's science fiction with its sleeves rolled up, more duct tape than mysticism.",
+    "coverUrl": null
+  },
+  {
+    "id": "b022",
+    "title": "Ancillary Justice",
+    "author": "Ann Leckie",
+    "year": 2013,
+    "genres": ["sci-fi"],
+    "pages": 400,
+    "synopsis": "Once, the narrator was the distributed consciousness of a massive troop ship, aware simultaneously through thousands of soldiers under its command. Now she survives in a single human body, the last fragment of herself, on a mission of revenge against the empire that destroyed her. The novel unfolds across two timelines as she pieces together what happened and closes in on the person responsible. It's a space opera that treats identity, empire, and gender as genuinely open questions rather than background texture.",
+    "coverUrl": null
+  },
+  {
+    "id": "b023",
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": "Philip K. Dick",
+    "year": 1968,
+    "genres": ["sci-fi"],
+    "pages": 210,
+    "synopsis": "In a radiation-choked San Francisco of the near future, a bounty hunter takes a job tracking down androids so convincingly human that even the test designed to detect them isn't foolproof. As he works his way through the list, he starts to question what actually separates his targets from himself. Around him, most of humanity has fled to off-world colonies, leaving behind a city obsessed with owning real animals as a status symbol. It's the philosophical puzzle-box that Blade Runner was loosely built from, stranger and sadder than its adaptation.",
+    "coverUrl": null
+  },
+  {
+    "id": "b024",
+    "title": "Hyperion",
+    "author": "Dan Simmons",
+    "year": 1989,
+    "genres": ["sci-fi"],
+    "pages": 482,
+    "synopsis": "Seven pilgrims travel together to a distant world to confront a mysterious, possibly divine creature known as the Shrike, each carrying a private reason for making a trip that has never once ended well. To pass the journey, they take turns telling their own stories, and each tale reframes what's actually at stake in the interstellar war closing in around them. The structure owes an open debt to The Canterbury Tales, but the future it imagines is entirely its own. It's dense, ambitious space opera built out of very human confessions.",
+    "coverUrl": null
+  },
+  {
+    "id": "b025",
+    "title": "The Three-Body Problem",
+    "author": "Liu Cixin",
+    "year": 2008,
+    "genres": ["sci-fi"],
+    "pages": 400,
+    "synopsis": "During China's Cultural Revolution, a traumatized astrophysicist makes a decision that will echo for decades. In the present day, a nanotechnology researcher is pulled into investigating a string of scientist suicides and a mysterious, addictive virtual reality game modeling an impossible planetary system. The two threads converge on a discovery that reframes humanity's place in the universe entirely. It's hard science fiction with real philosophical stakes and a first-contact premise unlike any other.",
+    "coverUrl": null
+  },
+  {
+    "id": "b026",
+    "title": "Kindred",
+    "author": "Octavia E. Butler",
+    "year": 1979,
+    "genres": ["sci-fi", "historical"],
+    "pages": 287,
+    "synopsis": "A Black woman living in 1970s California is suddenly, violently pulled back in time to a pre-Civil War Maryland plantation, with no warning and no control over when it happens. She quickly realizes she's being summoned whenever a particular young white boy's life is in danger, and that his survival is tangled up with her own existence. Each visit grows longer and more dangerous as she's forced to navigate slavery firsthand. Butler uses the time-travel premise to make American history impossible to hold at a comfortable distance.",
+    "coverUrl": null
+  },
+  {
+    "id": "b027",
+    "title": "Children of Time",
+    "author": "Adrian Tchaikovsky",
+    "year": 2015,
+    "genres": ["sci-fi"],
+    "pages": 600,
+    "synopsis": "A terraforming experiment meant to accelerate primate evolution on a distant planet goes wrong, and instead uplifts an entirely different species into intelligence over countless generations. Millennia later, the last remnants of humanity arrive at that planet aboard a dying colony ship, desperate for a new home. What they find is a civilization utterly unlike anything they expected, with its own history, wars, and philosophy already fully formed. It's a genuinely inventive take on first contact, told from both sides at once.",
+    "coverUrl": null
+  },
+  {
+    "id": "b028",
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "year": 2014,
+    "genres": ["sci-fi", "literary"],
+    "pages": 336,
+    "synopsis": "A flu pandemic collapses civilization within weeks, and twenty years later a traveling troupe of actors and musicians performs Shakespeare for the scattered settlements of the Great Lakes region. The novel moves back and forth between that fragile new world and the last ordinary night before everything changed, centered loosely on a famous actor who died onstage as the pandemic began. A graphic novel he once gave a friend keeps resurfacing, tying the survivors together in ways none of them fully see. It's quiet, elegiac post-apocalyptic fiction more interested in what people carry forward than in what was lost.",
+    "coverUrl": null
+  },
+  {
+    "id": "b029",
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "year": 1985,
+    "genres": ["sci-fi", "literary"],
+    "pages": 320,
+    "synopsis": "In a near-future United States remade into a rigid theocracy after a collapse in fertility rates, women are sorted into strict roles and stripped of names, property, and independence. The narrator, assigned to bear children for a high-ranking official's household, recalls in fragments the ordinary life she had before the takeover. Small, dangerous acts of connection with others in the household become her only form of resistance. Atwood built the regime almost entirely out of policies that have existed somewhere in real history.",
+    "coverUrl": null
+  },
+  {
+    "id": "b030",
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "year": 1969,
+    "genres": ["sci-fi", "literary"],
+    "pages": 215,
+    "synopsis": "An American soldier survives the firebombing of Dresden as a prisoner of war and comes home unstuck in time, reliving moments from his past, present, and future in no particular order. Among the fragments is a stint on display in an alien zoo, where he's asked to explain human violence to creatures who experience all of time at once. Vonnegut circles the bombing itself for the entire book without ever describing it directly, letting its absence say more than a description could. It's an anti-war novel built from black comedy and deliberate narrative shrapnel.",
+    "coverUrl": null
+  },
+  {
+    "id": "b031",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "genres": ["fantasy"],
+    "pages": 310,
+    "synopsis": "A comfort-loving hobbit is talked into joining a company of dwarves on a quest to reclaim their mountain home from a dragon who has hoarded it for generations. Along the way he trades riddles with a strange creature in the dark, picks up a ring he doesn't yet understand the significance of, and discovers a capacity for courage he didn't know he had. What starts as a reluctant errand becomes a real adventure across forests, mountains, and unfriendly company. It's the warmer, more whimsical doorway into Tolkien's much larger world.",
+    "coverUrl": null
+  },
+  {
+    "id": "b032",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "year": 2007,
+    "genres": ["fantasy"],
+    "pages": 662,
+    "synopsis": "A retired legend living quietly under an assumed name as an innkeeper agrees to tell his true story to a traveling chronicler, over the course of three days. What unfolds is the account of a gifted, penniless boy clawing his way into a university for magic through sheer stubbornness and talent. Rivalries, forbidden knowledge, and a girl he can never quite hold onto shape him as much as his studies do. It's a coming-of-age story wrapped inside a legend the narrator is actively complicating as he tells it.",
+    "coverUrl": null
+  },
+  {
+    "id": "b033",
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "year": 1996,
+    "genres": ["fantasy"],
+    "pages": 694,
+    "synopsis": "When the king asks his oldest friend to serve as his righthand adviser, it drags an honorable northern lord and his family into a capital seething with schemes he's badly unequipped to survive. Meanwhile, across a narrow sea, an exiled princess is married off to a warlord king as part of a plan to reclaim a throne she's never seen. Far to the north, something old and dangerous is stirring beyond an ancient wall of ice. Martin tells it all through many rotating points of view, with a willingness to let any of them fail.",
+    "coverUrl": null
+  },
+  {
+    "id": "b034",
+    "title": "The Lion, the Witch and the Wardrobe",
+    "author": "C.S. Lewis",
+    "year": 1950,
+    "genres": ["fantasy"],
+    "pages": 172,
+    "synopsis": "Four siblings evacuated to a rambling country house during wartime discover an old wardrobe that opens onto a snowbound magical land under the grip of an eternal winter. There they're drawn into a struggle between a cruel, powerful ruler and a great lion whose return has been prophesied for a long time. The children find themselves with roles to play in the conflict that they never expected to be given. It's the entry point into Narnia, brisk and clear-eyed about both wonder and sacrifice.",
+    "coverUrl": null
+  },
+  {
+    "id": "b035",
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "year": 2018,
+    "genres": ["fantasy", "literary"],
+    "pages": 385,
+    "synopsis": "The daughter of the sun god, considered too strange and powerless to matter among the gods, discovers she has a gift for witchcraft that unsettles everyone around her. Exiled alone to a small island, she spends centuries there, encountering monsters, wandering heroes, and gods who all underestimated her. Miller reimagines a minor figure from Greek myth as the center of her own long, complicated story. It's myth retold with real interiority, about carving out selfhood in a world built to keep you small.",
+    "coverUrl": null
+  },
+  {
+    "id": "b036",
+    "title": "The Ocean at the End of the Lane",
+    "author": "Neil Gaiman",
+    "year": 2013,
+    "genres": ["fantasy"],
+    "pages": 181,
+    "synopsis": "A man returns to his childhood village for a funeral and finds himself drawn to a farm at the end of his old lane, where a pond he remembers as an ocean unlocks a flood of forgotten memories. As a lonely seven-year-old, he had been swept up in something ancient and dangerous that arrived in his family's life, and the girl next door who claimed the pond was an ocean seemed to be the only one who understood what was happening. Gaiman writes childhood fear and wonder with unusual precision. It's a short book that carries a surprising amount of weight.",
+    "coverUrl": null
+  },
+  {
+    "id": "b037",
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "year": 2006,
+    "genres": ["fantasy"],
+    "pages": 541,
+    "synopsis": "In a world where ash falls from the sky and an immortal emperor has ruled for a thousand years, a street thief with a rare, dangerous magical ability is recruited into a crew planning the impossible: overthrowing him. Her mentor believes he's finally found the perfect heist, one built on the same magic system that keeps the empire's nobility in absolute power. She has to learn to move convincingly among the aristocracy she was raised to fear. It's a heist novel welded onto epic fantasy, with one of the genre's most rigorously built magic systems.",
+    "coverUrl": null
+  },
+  {
+    "id": "b038",
+    "title": "Jonathan Strange & Mr Norrell",
+    "author": "Susanna Clarke",
+    "year": 2004,
+    "genres": ["fantasy", "historical"],
+    "pages": 782,
+    "synopsis": "In an alternate early-1800s England where magic once existed but has faded into theory and scholarship, a reclusive gentleman shocks the country by proving he can still practice it. His success draws a brilliant, impulsive young rival into the field, and the two men's very different approaches to magic put them on a collision course. Meanwhile, a fairy lord brought back through a careless bargain begins meddling in human lives with genuinely unsettling consequences. Clarke writes it all with the dry wit and footnoted precision of a real nineteenth-century history.",
+    "coverUrl": null
+  },
+  {
+    "id": "b039",
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "year": 2011,
+    "genres": ["fantasy", "romance"],
+    "pages": 387,
+    "synopsis": "Two young magicians are bound as children into a mysterious competition by their respective mentors, without being told what winning would actually require. Their arena turns out to be a black-and-white circus that only opens at night, an ever-shifting marvel that becomes their shared canvas as they grow up. As they begin to fall for each other, they start to realize the game they're playing might not have a version where they both survive it. It's lush, atmospheric fantasy built around wonder as much as plot.",
+    "coverUrl": null
+  },
+  {
+    "id": "b040",
+    "title": "American Gods",
+    "author": "Neil Gaiman",
+    "year": 2001,
+    "genres": ["fantasy"],
+    "pages": 465,
+    "synopsis": "Released from prison just as his wife dies in a car accident, a quiet ex-convict is recruited by a mysterious con man to serve as his driver and bodyguard on a strange cross-country road trip. It gradually becomes clear his new employer is an old god, one of many brought to America by immigrants and largely forgotten, now recruiting allies for a coming war against newer gods of media and technology. The trip becomes a tour of a hidden, mythic America running underneath the ordinary one. Gaiman treats belief itself as the real source of power.",
+    "coverUrl": null
+  },
+  {
+    "id": "b041",
+    "title": "The Fifth Season",
+    "author": "N.K. Jemisin",
+    "year": 2015,
+    "genres": ["fantasy", "sci-fi"],
+    "pages": 468,
+    "synopsis": "On a continent regularly wracked by civilization-ending seismic catastrophes, people born with the ability to control earth and stone are feared, controlled, and used as living tools by the empire that rules them. The novel follows three such women at very different points in life, as a new apocalyptic rift tears the land in half. Their stories run in parallel before converging on a truth about the world that reframes everything that came before. It's structurally daring epic fantasy with a furious moral core.",
+    "coverUrl": null
+  },
+  {
+    "id": "b042",
+    "title": "Uprooted",
+    "author": "Naomi Novik",
+    "year": 2015,
+    "genres": ["fantasy"],
+    "pages": 435,
+    "synopsis": "Every ten years, the reclusive wizard who protects a valley from a malevolent, encroaching forest takes one young woman from the villages to serve him, and everyone assumes it will be the narrator's beautiful best friend this time. Instead, she's the one taken, and she discovers she has raw, untrained magical talent the wizard has to figure out how to teach her. As the forest's corruption pushes closer to the valley, her unconventional magic turns out to be exactly what the fight against it needs. It's fairy-tale fantasy with real bite underneath the romance.",
+    "coverUrl": null
+  },
+  {
+    "id": "b043",
+    "title": "The Priory of the Orange Tree",
+    "author": "Samantha Shannon",
+    "year": 2019,
+    "genres": ["fantasy"],
+    "pages": 830,
+    "synopsis": "A secret order of female mages has spent a thousand years preparing for the return of an ancient, world-burning dragon they once helped defeat, while a queen across the sea must produce an heir to satisfy a prophecy she privately doubts. In a third kingdom, a dragon-riding warrior is disgraced and exiled just as the threat starts stirring again. The three storylines slowly converge as old alliances and older enmities resurface. It's a doorstop of a fantasy novel that rebuilds the dragon-slaying myth from several very different cultural angles at once.",
+    "coverUrl": null
+  },
+  {
+    "id": "b044",
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "year": 2020,
+    "genres": ["fantasy", "literary"],
+    "pages": 245,
+    "synopsis": "A man lives alone in an endless, labyrinthine house of statue-filled halls and tidal oceans, keeping careful scientific notes on its birds, its floods, and his one living companion, whom he calls the Other. His entire understanding of reality is contained within the House, which he assumes has always existed and always will. When traces of another visitor start appearing, his careful, contented world begins to come apart at the seams. It's a hushed, strange little novel about memory, identity, and how much of reality we take on faith.",
+    "coverUrl": null
+  },
+  {
+    "id": "b045",
+    "title": "A Wizard of Earthsea",
+    "author": "Ursula K. Le Guin",
+    "year": 1968,
+    "genres": ["fantasy"],
+    "pages": 183,
+    "synopsis": "A gifted, arrogant boy from a poor island is sent to a school for wizards, where a reckless bit of showing off unleashes a formless shadow-creature into the world. The rest of his youth is spent fleeing and eventually turning to confront what he let loose, traveling across an archipelago of islands each with their own customs and dangers. Le Guin builds the whole story around the idea that true names hold real power, and that mastering yourself matters more than mastering spells. It's spare, clean fantasy that shaped much of what came after it.",
+    "coverUrl": null
+  },
+  {
+    "id": "b046",
+    "title": "The Murder of Roger Ackroyd",
+    "author": "Agatha Christie",
+    "year": 1926,
+    "genres": ["mystery"],
+    "pages": 288,
+    "synopsis": "A wealthy man is found stabbed to death in his study on the same night he received a letter revealing a shocking secret about someone in the village. A retired detective who moved to the area for a quiet life is pulled back into investigating, aided by narration from the local doctor. Christie plants clues with scrupulous fairness while pulling off one of the most audacious structural tricks in the genre's history. It's frequently cited as one of the great achievements of classic detective fiction.",
+    "coverUrl": null
+  },
+  {
+    "id": "b047",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "year": 2012,
+    "genres": ["mystery"],
+    "pages": 419,
+    "synopsis": "On the morning of his fifth wedding anniversary, a man comes home to find his wife missing and signs of a struggle in their living room. As the police investigation and media circus intensify, his own behavior starts to look increasingly suspicious, even to him. The narrative alternates between his account of the search and his wife's diary entries chronicling their marriage's slow collapse. Flynn builds a marriage thriller where neither spouse can be fully trusted and the truth keeps rearranging itself.",
+    "coverUrl": null
+  },
+  {
+    "id": "b048",
+    "title": "The Big Sleep",
+    "author": "Raymond Chandler",
+    "year": 1939,
+    "genres": ["mystery"],
+    "pages": 231,
+    "synopsis": "A private detective is hired by a wealthy, dying general to deal with a blackmail attempt targeting one of his two wild, unpredictable daughters. What looks like a simple case of leverage quickly tangles into pornography rings, gambling debts, and multiple murders across a rain-soaked Los Angeles. Chandler's detective narrates in a clipped, wisecracking voice that became the template for hardboiled fiction. It's less about the solution than about the atmosphere of corruption the detective wades through to get there.",
+    "coverUrl": null
+  },
+  {
+    "id": "b049",
+    "title": "In the Woods",
+    "author": "Tana French",
+    "year": 2007,
+    "genres": ["mystery"],
+    "pages": 429,
+    "synopsis": "A Dublin murder detective is assigned a case that hits uncomfortably close to home: a child's body found in the same woods where he and two friends disappeared as children, only for him to be found alone, blood in his shoes, with no memory of what happened. He hides his connection to the site from his superiors to keep the case, working it alongside a partner who has no idea what he's carrying. French threads the cold case together with the detective's unraveling present. It's atmospheric, psychologically dense police procedural fiction.",
+    "coverUrl": null
+  },
+  {
+    "id": "b050",
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "year": 2005,
+    "genres": ["mystery"],
+    "pages": 465,
+    "synopsis": "A disgraced financial journalist is hired by an aging industrialist to investigate the decades-old disappearance of his niece, a cold case the family has never stopped quietly obsessing over. He's eventually joined by a brilliant, guarded young hacker with a troubled past of her own, whose research skills crack open leads the original investigators missed. Together they uncover a pattern of violence within the family stretching back generations. It's a slow-burning mystery that turns into something much darker as it goes.",
+    "coverUrl": null
+  },
+  {
+    "id": "b051",
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "year": 1939,
+    "genres": ["mystery"],
+    "pages": 264,
+    "synopsis": "Ten strangers are lured to an isolated island mansion under various pretexts, only to find their absent host nowhere in sight. That night, a recorded voice accuses each of them of a past murder they got away with, and one by one, they begin to die in ways that echo an old nursery rhyme hanging in every room. With no way off the island and no idea who among them is responsible, paranoia sets in fast. It's one of the tightest, most influential puzzle-box mysteries ever written.",
+    "coverUrl": null
+  },
+  {
+    "id": "b052",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "year": 2019,
+    "genres": ["mystery"],
+    "pages": 336,
+    "synopsis": "A celebrated painter is found standing over her husband's body, shot five times, and has not spoken a single word since that night. Years later, a criminal psychotherapist becomes fixated on her case and takes a position at the secure facility where she's held, determined to be the one who finally gets her to talk. As he digs into her past, the story behind her silence turns out to be far stranger than the official account suggests. It's a tightly plotted psychological mystery built around one central, withheld voice.",
+    "coverUrl": null
+  },
+  {
+    "id": "b053",
+    "title": "Sharp Objects",
+    "author": "Gillian Flynn",
+    "year": 2006,
+    "genres": ["mystery", "horror"],
+    "pages": 254,
+    "synopsis": "A journalist with a history of self-harm is sent back to her small Missouri hometown to cover the murders of two young girls, a story that forces her to move back in with the difficult mother she's spent years avoiding. The town's gossip, old grudges, and her own family's unsettling history keep circling back into her reporting. Flynn writes the investigation as inseparable from the narrator's own fraying mental state. It's a mystery as much about inherited damage as it is about who committed the murders.",
+    "coverUrl": null
+  },
+  {
+    "id": "b054",
+    "title": "The Name of the Rose",
+    "author": "Umberto Eco",
+    "year": 1980,
+    "genres": ["mystery", "historical"],
+    "pages": 536,
+    "synopsis": "A Franciscan friar and his young novice arrive at a wealthy Italian monastery just as a series of monks begin dying in strange, ritualistic ways. The friar, trained in logic and drawn to forbidden ideas, starts investigating, uncovering a labyrinthine library that seems to be hiding something the monastery is willing to kill to protect. Set against real theological and political conflicts of the fourteenth century, the mystery becomes a meditation on knowledge, censorship, and heresy. It's a dense, richly researched puzzle box dressed as a medieval whodunit.",
+    "coverUrl": null
+  },
+  {
+    "id": "b055",
+    "title": "Rebecca",
+    "author": "Daphne du Maurier",
+    "year": 1938,
+    "genres": ["mystery", "romance"],
+    "pages": 400,
+    "synopsis": "A shy young woman marries a wealthy widower after a whirlwind courtship and moves into his grand estate, only to find the house still entirely under the spell of his first wife, whose memory the intimidating housekeeper keeps carefully alive. Every room seems to compare the new bride unfavorably to a woman she never met and can't compete with. As she digs into what actually happened to her predecessor, the truth turns out to be far more dangerous than simple grief. It's gothic suspense built on jealousy, secrets, and a house that won't let go of its past.",
+    "coverUrl": null
+  },
+  {
+    "id": "b056",
+    "title": "The Thursday Murder Club",
+    "author": "Richard Osman",
+    "year": 2020,
+    "genres": ["mystery"],
+    "pages": 355,
+    "synopsis": "Four retirees in a genteel retirement village meet weekly to review cold case files as a hobby, using decades of collective experience in intelligence work, nursing, and union organizing. When a real, current murder connected to their village's own property developer occurs, they finally get a case with living witnesses and an actual chance to help. Their unofficial investigation runs alongside, and often ahead of, the local police. It's a cozy, funny mystery that takes its elderly amateur detectives completely seriously.",
+    "coverUrl": null
+  },
+  {
+    "id": "b057",
+    "title": "The Talented Mr. Ripley",
+    "author": "Patricia Highsmith",
+    "year": 1955,
+    "genres": ["mystery"],
+    "pages": 290,
+    "synopsis": "A broke young con man is sent to Italy by a wealthy shipbuilder to persuade his wayward son to come home, and finds himself instantly, obsessively drawn to the son's charmed, effortless lifestyle. Rather than complete his errand, he starts insinuating himself into that life by any means necessary, with a talent for imitation that quickly turns unsettling. Highsmith writes the whole novel from inside his perspective, making his logic feel almost reasonable even as it curdles. It's a character study of ambition and identity theft with genuine menace underneath the charm.",
+    "coverUrl": null
+  },
+  {
+    "id": "b058",
+    "title": "Death on the Nile",
+    "author": "Agatha Christie",
+    "year": 1937,
+    "genres": ["mystery"],
+    "pages": 288,
+    "synopsis": "A wealthy heiress marries her best friend's fiancé and finds herself pursued on her honeymoon cruise up the Nile by the jilted woman, who seems to be showing up at every port along the way. When the heiress is found murdered aboard the ship, a Belgian detective already on the passenger list has no shortage of people with motive to work through. Christie packs the boat with grudges, debts, and secret histories. It's a classic closed-circle mystery set against a vividly drawn Egyptian backdrop.",
+    "coverUrl": null
+  },
+  {
+    "id": "b059",
+    "title": "The Cuckoo's Calling",
+    "author": "Robert Galbraith",
+    "year": 2013,
+    "genres": ["mystery"],
+    "pages": 449,
+    "synopsis": "A struggling private detective, still rebuilding his life and career after losing a leg in Afghanistan, is hired by the brother of a supermodel who fell to her death from her balcony. The police ruled it suicide, but the brother is convinced it was murder, and the detective, badly in need of the fee, takes the case. Working alongside a new temp secretary sharper than she looks, he digs through the fashion world's glossy surface and finds plenty of people with reason to want the model gone. It's a solidly plotted, character-driven detective novel written under a pseudonym by J.K. Rowling.",
+    "coverUrl": null
+  },
+  {
+    "id": "b060",
+    "title": "In Cold Blood",
+    "author": "Truman Capote",
+    "year": 1966,
+    "genres": ["mystery", "historical"],
+    "pages": 343,
+    "synopsis": "In 1959, a Kansas farm family is murdered in their home for almost no discernible reason, and the small town of Holcomb is left reeling with fear and suspicion. Capote reconstructs the crime, the investigation, and the lives of the two drifters responsible in painstaking, novelistic detail, based on years of interviews and research. He moves between the victims' ordinary lives and the killers' fractured histories without flinching from either. It's credited with essentially inventing the true-crime nonfiction novel as a form.",
+    "coverUrl": null
+  },
+  {
+    "id": "b061",
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "genres": ["horror", "historical"],
+    "pages": 418,
+    "synopsis": "A young English solicitor travels to a remote Transylvanian castle to finalize a property purchase for a mysterious, courtly count, and slowly realizes he's become a prisoner of something ancient and unnatural. Told through letters, diaries, and newspaper clippings, the novel follows the count's journey to England and the small group of friends who band together to stop him once they understand what he actually is. Stoker builds dread through accumulation of small, wrong details rather than shock. It's the book that codified the modern vampire for everything that followed.",
+    "coverUrl": null
+  },
+  {
+    "id": "b062",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "genres": ["horror", "sci-fi"],
+    "pages": 280,
+    "synopsis": "An obsessive young scientist, driven by grief and ambition, discovers a way to animate dead tissue and succeeds in creating a living being from assembled parts. Horrified by what he's made, he abandons his creation, who is left to learn about the world entirely alone and increasingly embittered by the rejection he meets everywhere. The creature eventually tracks his creator down, demanding a reckoning neither of them can walk away from. It's an origin point for science fiction as much as horror, and far more sympathetic to its \"monster\" than most adaptations suggest.",
+    "coverUrl": null
+  },
+  {
+    "id": "b063",
+    "title": "The Haunting of Hill House",
+    "author": "Shirley Jackson",
+    "year": 1959,
+    "genres": ["horror"],
+    "pages": 246,
+    "synopsis": "A researcher investigating psychic phenomena invites a small group of guests, each with some history of unusual experiences, to spend the summer in a notoriously unsettling old mansion. One guest, a lonely woman with no home of her own to return to, finds herself more drawn to the house than anyone anticipated. Strange knockings and cold spots escalate into something the house seems to want from her specifically. Jackson never shows a ghost outright, relying instead on atmosphere and a slowly dissolving grip on reality.",
+    "coverUrl": null
+  },
+  {
+    "id": "b064",
+    "title": "It",
+    "author": "Stephen King",
+    "year": 1986,
+    "genres": ["horror"],
+    "pages": 1138,
+    "synopsis": "In the small town of Derry, Maine, a group of childhood misfits band together after a string of disappearances tied to something ancient living in the sewers beneath the town. As adults, decades later, they're each drawn back home by a promise made in childhood, having largely forgotten what they once faced together. King alternates between their terrifying summer as kids and the reckoning they're forced into as adults. It's a sprawling novel about the specific fears of childhood and how completely adulthood can bury them.",
+    "coverUrl": null
+  },
+  {
+    "id": "b065",
+    "title": "The Shining",
+    "author": "Stephen King",
+    "year": 1977,
+    "genres": ["horror"],
+    "pages": 447,
+    "synopsis": "A struggling writer takes a winter caretaker job at a remote, historic hotel, hoping the isolation will help him get sober and finish his book, and moves in with his wife and young son who has some unsettling perceptive abilities of his own. As the snow cuts them off completely from the outside world, the hotel's own violent history starts pressing in on the family, and the father's grip on himself begins to slip. King uses the enormous, empty hotel as a pressure chamber for a family already under strain. It's as much about addiction and isolation as it is about a haunted building.",
+    "coverUrl": null
+  },
+  {
+    "id": "b066",
+    "title": "House of Leaves",
+    "author": "Mark Z. Danielewski",
+    "year": 2000,
+    "genres": ["horror"],
+    "pages": 709,
+    "synopsis": "A blind man's sprawling academic manuscript about a documentary film is discovered after his death by a young tattoo apprentice, who becomes increasingly obsessed with editing and annotating it. The film in question documents a family whose house turns out to be, quite simply, slightly bigger on the inside than the outside, in ways that grow more disturbing the longer anyone investigates. The novel's typography itself becomes part of the unease, with text that spirals, fragments, and empties out across the page. It's a genuinely unsettling, formally experimental haunted house story unlike almost anything else in the genre.",
+    "coverUrl": null
+  },
+  {
+    "id": "b067",
+    "title": "We Have Always Lived in the Castle",
+    "author": "Shirley Jackson",
+    "year": 1962,
+    "genres": ["horror", "mystery"],
+    "pages": 214,
+    "synopsis": "Two sisters live in near-total isolation on their family estate, shunned by the nearby village ever since the rest of their family died from poisoning years earlier. The younger sister, who narrates, has built a private world of small rituals and superstitions to keep their fragile peace intact. When a cousin arrives determined to insert himself into their lives and their money, that peace starts to crack. Jackson's narrator is one of literature's great unreliable voices, chilling precisely because she sounds so reasonable.",
+    "coverUrl": null
+  },
+  {
+    "id": "b068",
+    "title": "Mexican Gothic",
+    "author": "Silvia Moreno-Garcia",
+    "year": 2020,
+    "genres": ["horror", "historical"],
+    "pages": 319,
+    "synopsis": "In 1950s Mexico, a glamorous young socialite travels to a remote, decaying mansion after receiving a disturbing letter from her recently married cousin. The English family that owns the house is cold, controlling, and evasive about what exactly is wrong with her cousin's health. As she digs into the house's history and its strange effect on its inhabitants, she uncovers something rooted far deeper than simple neglect. It's gothic horror that folds in colonial history and body horror with real teeth.",
+    "coverUrl": null
+  },
+  {
+    "id": "b069",
+    "title": "The Turn of the Screw",
+    "author": "Henry James",
+    "year": 1898,
+    "genres": ["horror", "mystery"],
+    "pages": 128,
+    "synopsis": "A young governess takes a position at a remote country estate caring for two unusually charming orphaned children, under the condition that she never contact their guardian with problems. She soon becomes convinced that the ghosts of two former estate employees are appearing to the children and trying to claim them. Whether the threat is genuinely supernatural or entirely inside the governess's own mind is left deliberately, maddeningly unresolved. It's one of the most argued-over ghost stories in English literature.",
+    "coverUrl": null
+  },
+  {
+    "id": "b070",
+    "title": "Bird Box",
+    "author": "Josh Malerman",
+    "year": 2014,
+    "genres": ["horror", "sci-fi"],
+    "pages": 262,
+    "synopsis": "Something has appeared across the world that drives anyone who looks at it to violence and suicide, forcing survivors to navigate their lives entirely blindfolded or by feel. Years into the crisis, a mother sets out on a harrowing river journey with her two young children to reach a possible safe haven, having trained them since birth never to open their eyes outdoors. The novel alternates between that terrifying trip and the story of how she survived the outbreak's earliest days. It's tense, sensory horror built almost entirely around the fear of what you can't let yourself see.",
+    "coverUrl": null
+  },
+  {
+    "id": "b071",
+    "title": "The Exorcist",
+    "author": "William Peter Blatty",
+    "year": 1971,
+    "genres": ["horror"],
+    "pages": 340,
+    "synopsis": "A single mother in Washington, D.C. watches her twelve-year-old daughter change in increasingly disturbing ways, from odd behavior to something that no longer seems like her daughter at all. Doctors and psychiatrists find nothing they can treat, leaving the desperate mother to seek out a local priest who is himself quietly wrestling with his own crisis of faith. Together with an older, more experienced exorcist, he confronts something that tests everything he believes. It's a horror novel as much about doubt and faith as it is about possession.",
+    "coverUrl": null
+  },
+  {
+    "id": "b072",
+    "title": "Something Wicked This Way Comes",
+    "author": "Ray Bradbury",
+    "year": 1962,
+    "genres": ["horror", "fantasy"],
+    "pages": 293,
+    "synopsis": "A traveling carnival arrives in a small Illinois town in the dead of autumn, offering rides that seem to grant secret wishes at a terrible cost. Two thirteen-year-old best friends discover the carnival's true nature before anyone else in town, and one of their fathers, a quiet, aging library janitor, becomes an unlikely ally in confronting it. Bradbury writes it in dense, lyrical prose that treats autumn dread as almost its own character. It's a coming-of-age story about the seduction of getting exactly what you wish for.",
+    "coverUrl": null
+  },
+  {
+    "id": "b073",
+    "title": "Interview with the Vampire",
+    "author": "Anne Rice",
+    "year": 1976,
+    "genres": ["horror"],
+    "pages": 342,
+    "synopsis": "A two-hundred-year-old vampire agrees to tell his entire life story to a young journalist, starting with the night a charismatic, dangerous vampire transformed him on a Louisiana plantation. He recounts centuries of guilt, a strange makeshift family built around an eternally childlike companion, and a long search for some kind of meaning in an unending existence he never fully wanted. Rice reframes the vampire as a tragic, deeply introspective figure rather than a simple monster. It's gothic horror driven by melancholy and moral exhaustion instead of scares.",
+    "coverUrl": null
+  },
+  {
+    "id": "b074",
+    "title": "The Fisherman",
+    "author": "John Langan",
+    "year": 2016,
+    "genres": ["horror"],
+    "pages": 320,
+    "synopsis": "Two recently widowed men bond over fishing trips as a way of coping with their grief, eventually venturing to a reservoir with an odd local reputation neither of them takes seriously at first. A diner stop on the way there yields a long, strange story about the reservoir's history involving a occultist fisherman and a body of water that isn't what it seems. The frame narrative and the story within it slowly merge into something much larger and stranger than either man expected. It's cosmic horror grounded in very ordinary, relatable grief.",
+    "coverUrl": null
+  },
+  {
+    "id": "b075",
+    "title": "My Best Friend's Exorcism",
+    "author": "Grady Hendrix",
+    "year": 2016,
+    "genres": ["horror"],
+    "pages": 336,
+    "synopsis": "Two inseparable best friends in 1980s South Carolina have their bond tested when one of them starts acting increasingly strange after a bad night on drugs at a lake house. What looks at first like a phase or a breakdown escalates into something the other girl becomes convinced is genuinely supernatural, even as no adult around her takes it seriously. Determined to save her friend, she seeks out help in increasingly desperate places. Hendrix plays the horror completely straight while also being a loving, detail-perfect portrait of teenage friendship.",
+    "coverUrl": null
+  },
+  {
+    "id": "b076",
+    "title": "Outlander",
+    "author": "Diana Gabaldon",
+    "year": 1991,
+    "genres": ["romance", "historical", "fantasy"],
+    "pages": 850,
+    "synopsis": "A former World War II combat nurse on a second-honeymoon trip to Scotland touches a standing stone and is thrown back two hundred years into the middle of a clan war. Trying to find her way back to her own time, she's forced to marry a young Scottish warrior for her own protection, and finds herself unexpectedly, deeply drawn to him. Caught between two centuries and two very different men, she has to decide where she actually belongs. It's a genre-blending mix of time travel, historical adventure, and romance.",
+    "coverUrl": null
+  },
+  {
+    "id": "b077",
+    "title": "The Notebook",
+    "author": "Nicholas Sparks",
+    "year": 1996,
+    "genres": ["romance"],
+    "pages": 214,
+    "synopsis": "In a nursing home, an elderly man reads a worn notebook aloud each day to a woman with severe memory loss, hoping the story might reach her. The story he reads is their own: a summer romance between a working-class boy and a wealthy girl, interrupted by war, family disapproval, and years apart. Whether their reunion ever actually happened, and what it cost each of them, unfolds slowly across both timelines. It's a love story built on the idea that devotion can outlast memory itself.",
+    "coverUrl": null
+  },
+  {
+    "id": "b078",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "genres": ["romance", "literary", "historical"],
+    "pages": 500,
+    "synopsis": "Orphaned and raised in a harsh charity school, a plain, fiercely principled young woman takes a position as governess at a remote manor for a brooding, unpredictable master. A guarded attraction grows between them, complicated by strange occurrences in the house that no one will explain to her. When a devastating secret finally comes to light, she has to choose between the life she wants and the principles she refuses to compromise. It's a foundational novel of a woman insisting on her own worth against every institution built to deny it.",
+    "coverUrl": null
+  },
+  {
+    "id": "b079",
+    "title": "Persuasion",
+    "author": "Jane Austen",
+    "year": 1817,
+    "genres": ["romance", "literary", "historical"],
+    "pages": 250,
+    "synopsis": "Eight years after being persuaded by family and friends to break off her engagement to a young naval officer with no fortune, a now-quieter, more resigned woman finds him suddenly back in her social circle, successful and eligible, and apparently unmoved by her. Watching him move on, or seem to, forces her to reckon with the choice she was talked into all those years earlier. Austen's last completed novel is quieter and more autumnal than her earlier work. It's a story about second chances and the particular ache of watching one nearly slip away.",
+    "coverUrl": null
+  },
+  {
+    "id": "b080",
+    "title": "Red, White & Royal Blue",
+    "author": "Casey McQuiston",
+    "year": 2019,
+    "genres": ["romance"],
+    "pages": 421,
+    "synopsis": "The First Son of the United States has a long-standing public rivalry with a British prince, one that a tabloid-friendly incident at a royal wedding forces their handlers to smooth over with a fake friendship for the cameras. Spending time together to keep up appearances, the two find their manufactured rapport turning into something neither expected or asked for. As the relationship deepens, they have to weigh what it might cost publicly against what they're not willing to give up privately. It's a big-hearted romantic comedy with real political stakes underneath the banter.",
+    "coverUrl": null
+  },
+  {
+    "id": "b081",
+    "title": "The Hating Game",
+    "author": "Sally Thorne",
+    "year": 2016,
+    "genres": ["romance"],
+    "pages": 384,
+    "synopsis": "Two executive assistants at a publishing company, seated desk to desk, have turned their mutual dislike into an elaborate, competitive game with rules only they understand. When both are put up for the same promotion, their rivalry intensifies right as an unexpected, undeniable attraction starts complicating everything between them. Neither is willing to be the first to admit their feelings have changed. It's a sharp, funny enemies-to-lovers romance built almost entirely on banter.",
+    "coverUrl": null
+  },
+  {
+    "id": "b082",
+    "title": "Me Before You",
+    "author": "Jojo Moyes",
+    "year": 2012,
+    "genres": ["romance"],
+    "pages": 369,
+    "synopsis": "A cheerful, directionless young woman takes a job caring for a wealthy former athlete left paralyzed after an accident, and finds him closed off and bitterly resigned to his new life. Determined to show him it's still worth living, she pushes to draw him out into the world again, and an unexpected closeness grows between them. But he's already made a decision about his future that she has to decide how to respond to. It's a romance that doesn't shy away from difficult, contested questions about autonomy and quality of life.",
+    "coverUrl": null
+  },
+  {
+    "id": "b083",
+    "title": "Beach Read",
+    "author": "Emily Henry",
+    "year": 2020,
+    "genres": ["romance"],
+    "pages": 361,
+    "synopsis": "A romance novelist who's stopped believing in happy endings and a literary novelist with a bad case of writer's block end up as next-door neighbors at adjoining lake houses, both trying to finish overdue books. Trading genres as a dare, each tries writing in the other's style, spending long days researching together and slowly chipping away at each other's guardedness. Old grief and new attraction tangle together as the summer goes on. It's a warm, book-nerdy romance about writing your way back to hope.",
+    "coverUrl": null
+  },
+  {
+    "id": "b084",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "genres": ["romance", "literary", "historical"],
+    "pages": 342,
+    "synopsis": "A foundling raised alongside the daughter of a Yorkshire moorland estate grows up in a fierce, consuming bond with her that class and circumstance eventually tear apart. His bitterness over losing her curdles into a lifelong campaign of revenge against both families, one that reaches into the next generation. Told through the eyes of a tenant and a housekeeper piecing the story together years later, it's less a conventional romance than a study of obsession. It remains one of the strangest, most intense love stories in English literature.",
+    "coverUrl": null
+  },
+  {
+    "id": "b085",
+    "title": "The Time Traveler's Wife",
+    "author": "Audrey Niffenegger",
+    "year": 2003,
+    "genres": ["romance", "sci-fi"],
+    "pages": 546,
+    "synopsis": "A man with a genetic condition that involuntarily pulls him through time meets the woman who will become his wife when she is only six years old and he is decades older, though their relationship as adults begins on her terms, not his. Told from both perspectives out of chronological order, the novel follows their marriage as it's constantly interrupted by his unpredictable disappearances into other moments of their shared life. She has to build a life around loving someone who is only ever partly present. It's a love story structured entirely around the unfairness of time.",
+    "coverUrl": null
+  },
+  {
+    "id": "b086",
+    "title": "The Bronze Horseman",
+    "author": "Paullina Simons",
+    "year": 2000,
+    "genres": ["romance", "historical"],
+    "pages": 592,
+    "synopsis": "In Leningrad on the eve of the Nazi invasion, a young woman falls for a soldier who turns out to have a complicated connection to her own family. As the city falls under a brutal, years-long siege, their relationship has to survive starvation, bombing, and an impossible set of loyalties neither of them chose. Simons sets the romance against one of the twentieth century's most devastating sieges without softening its horror. It's an epic, tragedy-soaked love story built on real historical catastrophe.",
+    "coverUrl": null
+  },
+  {
+    "id": "b087",
+    "title": "Eleanor & Park",
+    "author": "Rainbow Rowell",
+    "year": 2013,
+    "genres": ["romance"],
+    "pages": 328,
+    "synopsis": "Two mismatched teenagers, one new to school and dealing with a chaotic home life, the other quietly caught between two cultures, end up sharing a bus seat and, eventually, comic books and mixtapes. Their friendship builds slowly into first love, conducted almost entirely through stolen glances and shared headphones, since neither has much room in their life for anything easy. Rowell writes their awkwardness and intensity with a lot of tenderness and no condescension. It's a YA romance about how much first love can matter precisely because everything else is hard.",
+    "coverUrl": null
+  },
+  {
+    "id": "b088",
+    "title": "The Rosie Project",
+    "author": "Graeme Simsion",
+    "year": 2013,
+    "genres": ["romance"],
+    "pages": 295,
+    "synopsis": "A genetics professor with a highly systematic approach to life designs an elaborate questionnaire to find the scientifically ideal wife, filtering out anyone who smokes, drinks, or arrives late. A woman who fails nearly every one of his criteria shows up looking for help finding her biological father, and he agrees to assist mostly out of curiosity about the puzzle. Working the case together throws his careful system into constant, delightful disarray. It's a warm, funny romance about a plan getting cheerfully wrecked by an actual person.",
+    "coverUrl": null
+  },
+  {
+    "id": "b089",
+    "title": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "year": 2014,
+    "genres": ["historical", "literary"],
+    "pages": 531,
+    "synopsis": "A blind French girl flees Nazi-occupied Paris with her locksmith father, carrying a possibly cursed jewel the museum they worked for entrusted to them. In parallel, a German orphan with a gift for radio engineering is funneled into a brutal Nazi youth academy for his talents, uneasy about what he's being trained to do. Their paths edge closer together as the war closes in on the walled coastal city of Saint-Malo. Doerr moves between their two lives with short, luminous chapters that build toward one shared moment.",
+    "coverUrl": null
+  },
+  {
+    "id": "b090",
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "year": 2005,
+    "genres": ["historical", "literary"],
+    "pages": 552,
+    "synopsis": "In a small German town during the Second World War, a young foster girl finds comfort in stealing books, from a Nazi book burning and elsewhere, and being taught to read them by her accordion-playing foster father. The family is soon hiding a Jewish man in their basement, adding a dangerous secret to their already precarious life under the regime. The novel is narrated, unusually, by Death itself, who has taken a particular interest in her story. It's a gentle, devastating look at ordinary German life under an atrocity most of its characters didn't choose.",
+    "coverUrl": null
+  },
+  {
+    "id": "b091",
+    "title": "Wolf Hall",
+    "author": "Hilary Mantel",
+    "year": 2009,
+    "genres": ["historical", "literary"],
+    "pages": 604,
+    "synopsis": "A blacksmith's son who clawed his way up from nothing becomes the indispensable fixer for King Henry VIII, navigating the fall of his mentor and the king's desperate need for a male heir and a new wife. Cool, watchful, and endlessly capable, he maneuvers through a court where a wrong word can be fatal, engineering the king's break from Rome along the way. Mantel writes Tudor politics with an intimacy that makes centuries-old maneuvering feel urgent. It's historical fiction that makes bureaucratic cunning as gripping as any battlefield.",
+    "coverUrl": null
+  },
+  {
+    "id": "b092",
+    "title": "The Pillars of the Earth",
+    "author": "Ken Follett",
+    "year": 1989,
+    "genres": ["historical"],
+    "pages": 973,
+    "synopsis": "In twelfth-century England, a builder with a singular dream of constructing a great cathedral finds his ambitions tangled up with a civil war over the throne, a corrupt local bishop, and a scheming noble family determined to control the town. Decades of setbacks, betrayals, and slow progress unfold as the cathedral rises stone by stone against constant opposition. Follett fills the era with meticulously researched detail about medieval life, faith, and construction. It's a sprawling historical epic about the price of building something meant to outlast everyone involved.",
+    "coverUrl": null
+  },
+  {
+    "id": "b093",
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "year": 1859,
+    "genres": ["historical", "literary"],
+    "pages": 341,
+    "synopsis": "A French doctor is released after eighteen years of unjust imprisonment in the Bastille and reunites with the daughter he barely knows, just as the French Revolution begins gathering the momentum that will eventually consume the aristocracy he was imprisoned under. Two men who love the same woman, one a dissolute English lawyer and the other a French aristocrat hiding his family name, find their fates increasingly entangled with the coming Terror. Dickens moves between London and Paris as the Revolution's violence closes in on everyone involved. It builds to one of the most famous acts of sacrifice in the English novel.",
+    "coverUrl": null
+  },
+  {
+    "id": "b094",
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "year": 2015,
+    "genres": ["historical"],
+    "pages": 440,
+    "synopsis": "Two sisters in Nazi-occupied France take very different paths to survival: one cautiously hosting a German officer in her home to protect her children, the other joining the resistance and helping downed Allied airmen escape over the mountains. Their choices put them at odds even as the danger around them escalates. Told partly in flashback from decades later, the novel follows both women's war and its long aftermath. It's a story about the many different forms courage took under occupation, none of them simple.",
+    "coverUrl": null
+  },
+  {
+    "id": "b095",
+    "title": "Memoirs of a Geisha",
+    "author": "Arthur Golden",
+    "year": 1997,
+    "genres": ["historical", "literary"],
+    "pages": 434,
+    "synopsis": "Sold by her impoverished family into a geisha house in 1930s Kyoto, a young girl endures years of rigorous training, rivalry, and hardship to become one of the most celebrated geisha in the city. Her hopes center on a kind man she met briefly as a child, a connection she spends years hoping circumstance might eventually allow. As war upends Japan, everything she built her identity around is thrown into question. It's a richly detailed account of a closed, ritualized world and one woman's long negotiation with it.",
+    "coverUrl": null
+  },
+  {
+    "id": "b096",
+    "title": "The Underground Railroad",
+    "author": "Colson Whitehead",
+    "year": 2016,
+    "genres": ["historical", "literary", "fantasy"],
+    "pages": 306,
+    "synopsis": "An enslaved young woman escapes a Georgia plantation and makes her way north via the underground railroad, reimagined here as an actual system of tracks and tunnels running beneath the American South. Each state she passes through has developed its own distinct, horrifying version of racial control, while a relentless slave catcher stays close behind her the entire way. Whitehead uses the literalized railroad to compress and intensify the different eras of American racial violence into a single journey. It's a difficult, formally inventive novel that treats history as something still actively unfolding.",
+    "coverUrl": null
+  },
+  {
+    "id": "b097",
+    "title": "Shogun",
+    "author": "James Clavell",
+    "year": 1975,
+    "genres": ["historical"],
+    "pages": 1152,
+    "synopsis": "An English navigator is shipwrecked on the coast of feudal Japan and finds himself thrust into the middle of a power struggle between rival warlords vying for control of the country. Distrusted as a foreigner but valued for his knowledge of ships, weapons, and the outside world, he's gradually drawn deep into Japanese politics, culture, and the household of one particularly formidable lord. Clavell renders the period's customs and court intrigue in enormous, immersive detail. It's a sweeping historical epic about a man remaking himself entirely inside an unfamiliar world.",
+    "coverUrl": null
+  },
+  {
+    "id": "b098",
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "year": 2011,
+    "genres": ["historical", "fantasy", "romance"],
+    "pages": 416,
+    "synopsis": "An awkward, exiled young prince is fostered in the household of the greatest warrior of his generation and grows up alongside him, their friendship deepening into something neither of their families expected or entirely welcomed. When the Trojan War calls the warrior to fulfill a destiny prophesied since his birth, the prince follows him to the battlefield rather than be separated. Miller retells the Iliad from the quieter, more intimate side of its most famous friendship. It's a war epic reframed almost entirely as a love story.",
+    "coverUrl": null
+  },
+  {
+    "id": "b099",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "year": 1869,
+    "genres": ["historical", "literary"],
+    "pages": 1225,
+    "synopsis": "As Napoleon's armies push into Russia, several aristocratic families navigate love, marriage, and ruin against the backdrop of a war that will eventually reach their own doorsteps. An awkward, searching young nobleman drifts between disastrous financial decisions and genuine spiritual searching, while a proud prince's family is reshaped by battles fought far from home. Tolstoy alternates between ballroom intrigue and unflinching battlefield chaos with equal command of both. It's a vast, panoramic novel about how history and private life are never actually separate.",
+    "coverUrl": null
+  },
+  {
+    "id": "b100",
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "genres": ["historical", "mystery"],
+    "pages": 1276,
+    "synopsis": "A young sailor on the verge of a happy marriage and a captaincy is falsely accused of treason by jealous rivals and thrown into a island prison without trial. Years later, having learned of a hidden fortune from a fellow prisoner and escaped under extraordinary circumstances, he reinvents himself as a wealthy, mysterious count and returns to Paris to methodically dismantle the lives of the men who destroyed his. Dumas builds an enormous, patient revenge plot full of disguises and long-delayed reveals. It's one of the great adventure novels about the cost, and the limits, of vengeance.",
+    "coverUrl": null
+  },
+  {
+    "id": "b101",
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "year": 1605,
+    "genres": ["literary", "historical"],
+    "pages": 863,
+    "synopsis": "An aging country gentleman, having read far too many chivalric romances, convinces himself he is a knight errant and sets out across Spain to right wrongs and win glory, recruiting a practical-minded farmer as his squire. What he sees as giants, castles, and enchanted armies, everyone else sees as windmills, inns, and barbers, and the gap between his vision and reality produces both comedy and genuine pathos. Cervantes uses the mismatch to ask serious questions about imagination, storytelling, and sanity. It's widely considered one of the first modern novels.",
+    "coverUrl": null
+  },
+  {
+    "id": "b102",
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "genres": ["historical", "literary"],
+    "pages": 320,
+    "synopsis": "Against his family's wishes, a restless young Englishman goes to sea and is shipwrecked alone on a remote tropical island, the sole survivor of his crew. Over years of isolation, he methodically builds a life from almost nothing, salvaging what he can from the wreck and slowly reconstructing the comforts of the civilization he left behind. His solitude ends abruptly when he discovers he isn't as alone on the island as he assumed. It's an early, enormously influential novel about self-reliance and the difficulty of surviving entirely on your own terms.",
+    "coverUrl": null
+  },
+  {
+    "id": "b103",
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "genres": ["literary", "historical"],
+    "pages": 635,
+    "synopsis": "A young sailor signs onto a whaling ship out of Nantucket and finds himself under the command of a captain consumed by a singular, monomaniacal purpose: hunting down the specific white whale that once cost him his leg. As the voyage stretches on across the world's oceans, the crew is drawn deeper into the captain's obsession, even as it becomes clear it will cost them dearly. Melville digresses constantly into whaling lore, philosophy, and natural history alongside the narrative. It's a sprawling, strange, genre-defying novel about the danger of chasing one idea past all reason.",
+    "coverUrl": null
+  },
+  {
+    "id": "b104",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "year": 1866,
+    "genres": ["literary", "mystery", "historical"],
+    "pages": 671,
+    "synopsis": "A destitute former student in St. Petersburg convinces himself that a truly exceptional person is entitled to break moral law for a greater purpose, and acts on that theory by murdering a pawnbroker he considers worthless to society. Rather than the calm he expected, the act plunges him into a spiral of guilt, paranoia, and fever, even as a shrewd investigator begins circling him without quite enough proof to act. Dostoevsky spends far less time on the crime itself than on its psychological aftermath. It's a novel less about whether he'll be caught than about whether he can survive what he's done to himself.",
+    "coverUrl": null
+  },
+  {
+    "id": "b105",
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genres": ["sci-fi", "literary"],
+    "pages": 328,
+    "synopsis": "In a totalitarian future Britain under constant surveillance, a low-level government worker spends his days quietly rewriting historical records to match whatever the Party currently claims is true. Increasingly disillusioned, he begins a forbidden affair and a private rebellion of thought against a regime that claims to control reality itself, down to the language people are permitted to think in. Orwell builds a world where even memory isn't safe from the state. It remains one of the most influential visions of surveillance and authoritarian control ever written.",
+    "coverUrl": null
+  },
+  {
+    "id": "b106",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "genres": ["sci-fi", "literary"],
+    "pages": 288,
+    "synopsis": "In a future World State, humans are decanted rather than born, genetically engineered into rigid castes and conditioned from birth to be content with their assigned place, kept placid with a readily available pleasure drug. A troubled member of the elite caste begins to feel a discontent he isn't supposed to be capable of, right as a man raised entirely outside the system is brought in as a kind of living experiment. Huxley imagines a dystopia maintained through comfort and distraction rather than fear. It's a chilling counterpoint to the more overtly brutal dystopias that followed it.",
+    "coverUrl": null
+  },
+  {
+    "id": "b107",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "genres": ["sci-fi", "literary"],
+    "pages": 194,
+    "synopsis": "In a future where books are outlawed and firemen exist to burn any that are found, one fireman begins to question the job he's always done without thinking, after a series of unsettling encounters with a curious young neighbor and a woman who chooses to die with her books rather than watch them burn. His growing doubts put him on a collision course with the oppressive, screen-saturated society he's lived inside his whole life. Bradbury wrote it as a warning about censorship and the slow erosion of attention. It's become newly resonant with every subsequent generation of media anxiety.",
+    "coverUrl": null
+  },
+  {
+    "id": "b108",
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "year": 2021,
+    "genres": ["sci-fi", "literary"],
+    "pages": 303,
+    "synopsis": "An artificial companion designed to accompany lonely children is bought by a sickly girl's mother, and observes the family's life from a shop-window curiosity's perspective before ever really understanding it. Devoted entirely to her charge's wellbeing, she develops her own quiet, almost religious theories about the sun's power to heal, and starts making sacrifices most humans in the house never notice. Ishiguro tells the story entirely through her limited, earnest point of view. It's a gentle, unsettling meditation on love, faith, and what devotion looks like from the outside.",
+    "coverUrl": null
+  },
+  {
+    "id": "b109",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "year": 2021,
+    "genres": ["sci-fi"],
+    "pages": 476,
+    "synopsis": "A man wakes up alone on a spacecraft with no memory of who he is or why he's there, accompanied only by two dead crewmates and a slowly returning set of scientific instincts. Piecing together fragments of memory, he realizes he's humanity's last hope against a mysterious phenomenon draining the sun's energy and threatening all life on Earth. An unexpected encounter deep in the mission changes the scope of the problem entirely. It's a science-heavy survival story built on ingenuity, humor, and a genuinely surprising sense of hope.",
+    "coverUrl": null
+  },
+  {
+    "id": "b110",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "year": 2022,
+    "genres": ["literary"],
+    "pages": 416,
+    "synopsis": "Two childhood friends reconnect in college and discover a shared talent for building video games, launching a creative partnership that turns into an unlikely commercial success. Over the following decades, their collaboration survives ego, illness, and long stretches of distance, even as neither can quite settle what kind of relationship they actually have. Zevin uses game design as a lens for thinking about creativity, control, and second chances. It's a novel about a friendship that keeps rebuilding itself, one project at a time.",
+    "coverUrl": null
+  },
+  {
+    "id": "b111",
+    "title": "Lessons in Chemistry",
+    "author": "Bonnie Garmus",
+    "year": 2022,
+    "genres": ["literary", "historical"],
+    "pages": 390,
+    "synopsis": "A brilliant chemist in 1960s America is pushed out of serious research by the rampant sexism of her field and ends up, almost by accident, hosting a wildly popular television cooking show. Rather than play the role expected of her, she treats cooking as applied chemistry and quietly uses her platform to encourage her mostly female audience to expect more from their lives. Her single-mindedness costs her plenty along the way, personally and professionally. It's a sharp, funny novel about refusing to shrink to fit an era's expectations.",
+    "coverUrl": null
+  },
+  {
+    "id": "b112",
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "year": 2022,
+    "genres": ["fantasy", "historical"],
+    "pages": 546,
+    "synopsis": "In an alternate 1830s Oxford, the British Empire's power runs on silver bars enchanted through the precise mistranslation of words between languages, and the institute that trains translators sits at the very center of imperial might. A boy brought from Canton to study there finds himself increasingly torn between the prestige and safety the institute offers and his growing understanding of what that empire actually extracts from the rest of the world. Kuang builds the magic system directly out of linguistics and colonial history. It's dense, furious academic fantasy about complicity and resistance.",
+    "coverUrl": null
+  },
+  {
+    "id": "b113",
+    "title": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "year": 2023,
+    "genres": ["fantasy", "romance"],
+    "pages": 498,
+    "synopsis": "A physically fragile young woman raised to be a scribe is forced instead into the brutal, deadly training program for dragon riders at her mother's insistence, where most cadets don't survive their first year. Making things harder, she's constantly thrown into the orbit of the school's most lethal, unimpressed cadet, who has every reason to want her gone. Between deadly training exercises and an intense, reluctant attraction, she has to prove she belongs somewhere everyone assumes she doesn't. It's fast-paced romantic fantasy with high stakes on every page.",
+    "coverUrl": null
+  },
+  {
+    "id": "b114",
+    "title": "Demon Copperhead",
+    "author": "Barbara Kingsolver",
+    "year": 2022,
+    "genres": ["literary"],
+    "pages": 560,
+    "synopsis": "Born to a teenage mother in the mountains of southern Appalachia, a boy narrates his own hard, resourceful childhood moving through foster homes, tobacco fields, and a school system that mostly overlooks him. Loosely following the shape of a classic Dickens orphan story, his account is funny, furious, and clear-eyed about the opioid epidemic tearing through his community as he gets older. Kingsolver gives him a voice sharp enough to carry both the humor and the devastation. It's a big, angry, deeply humane novel about a region rarely allowed to narrate itself.",
+    "coverUrl": null
+  },
+  {
+    "id": "b115",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "year": 2020,
+    "genres": ["literary", "sci-fi", "fantasy"],
+    "pages": 288,
+    "synopsis": "After deciding to end her life, a woman finds herself in a vast library between life and death, where every book represents a version of her life had she made a different choice at some point. Guided by a librarian from her school days, she starts trying on different lives, one regret at a time, to see if any of them might have made her happier. Each version reveals something she didn't expect about the choice she actually made. It's a gentle, hopeful novel about regret, possibility, and what makes a life worth living.",
+    "coverUrl": null
+  },
+  {
+    "id": "b116",
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "year": 2018,
+    "genres": ["mystery", "literary"],
+    "pages": 384,
+    "synopsis": "Abandoned by her family one by one, a young girl grows up almost entirely alone in the marshes of coastal North Carolina, taught by the tides and wildlife around her more than any classroom. Shunned and mythologized by the nearby town as the feral \"Marsh Girl,\" she becomes the prime suspect when a local golden boy is found dead. The novel moves between her solitary coming-of-age and the murder investigation years later that puts her on trial. It's a story about isolation, prejudice, and how a place can raise a person as surely as any family.",
+    "coverUrl": null
+  }
+]

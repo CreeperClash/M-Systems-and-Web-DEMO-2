@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Noveleum — a random novel, on demand</title>
+  <meta name="description" content="Pull a random novel from the stacks and read a spoiler-free synopsis." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="skip-link-wrap">
+    <a class="skip-link" href="#stage">Skip to your book</a>
+  </div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <p class="brand">
+        <span class="brand__mark" id="brand-mark" aria-hidden="true">Σ</span>
+        <span class="brand__name"><span class="brand__wave" aria-hidden="true"><span class="wl" style="--i:0">T</span><span class="wl" style="--i:1">h</span><span class="wl" style="--i:2">e</span><span class="wl" style="--i:3">&nbsp;</span><span class="wl" style="--i:4">N</span><span class="wl" style="--i:5">o</span><span class="wl" style="--i:6">v</span><span class="wl" style="--i:7">e</span><span class="wl" style="--i:8">l</span><span class="wl" style="--i:9">e</span><span class="wl" style="--i:10">u</span><span class="wl" style="--i:11">m</span></span><span class="sr-only">The Noveleum</span></span>
+      </p>
+    </div>
+  </header>
+
+  <button type="button" id="saved-toggle-btn" class="saved-fab" aria-haspopup="true" aria-controls="saved-panel" aria-label="Saved novels">
+    <svg class="saved-fab__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <rect x="6" y="4" width="12" height="16" rx="2"></rect>
+      <rect x="9" y="2" width="6" height="4" rx="1"></rect>
+    </svg>
+    <span class="saved-fab__count" id="saved-count">0</span>
+  </button>
+
+  <main class="main">
+    <section class="intro">
+      <h1 class="intro__title text-balance">Pull a card from the catalog.</h1>
+      <p class="intro__body">One button, one novel, no algorithm pretending to know you. Narrow it down by shelf, era, or length first if you like — then let the drawer decide.</p>
+    </section>
+
+    <section class="filters" aria-label="Narrow the selection before drawing">
+      <div class="filters__group">
+        <h2 class="filters__label" id="genre-filters-label">Shelf</h2>
+        <div class="chip-row" id="genre-filters" role="group" aria-labelledby="genre-filters-label"></div>
+      </div>
+
+      <div class="filters__group filters__group--inline">
+        <div class="filters__field">
+          <label class="filters__label" for="decade-from">Era from</label>
+          <select id="decade-from" class="select"></select>
+        </div>
+        <div class="filters__field">
+          <label class="filters__label" for="decade-to">to</label>
+          <select id="decade-to" class="select"></select>
+        </div>
+      </div>
+
+      <div class="filters__group">
+        <h2 class="filters__label" id="length-label">Length</h2>
+        <div class="chip-row" role="radiogroup" aria-labelledby="length-label">
+          <label class="chip">
+            <input type="radio" name="length" value="any" checked />
+            <span>Any</span>
+          </label>
+          <label class="chip">
+            <input type="radio" name="length" value="short" />
+            <span>Short <small>&lt;300pg</small></span>
+          </label>
+          <label class="chip">
+            <input type="radio" name="length" value="medium" />
+            <span>Medium <small>300&ndash;500pg</small></span>
+          </label>
+          <label class="chip">
+            <input type="radio" name="length" value="long" />
+            <span>Long <small>500pg+</small></span>
+          </label>
+        </div>
+      </div>
+
+      <button type="button" id="reset-filters-btn" class="link-btn">Reset filters</button>
+    </section>
+
+    <section class="stage-section" id="stage">
+      <article class="book-card" id="book-card">
+        <div class="book-card__cover" id="cover-wrap" aria-hidden="true"></div>
+
+        <div class="book-card__body">
+          <ul class="tag-row" id="book-genres"></ul>
+
+          <h2 class="book-card__title text-balance" id="book-title">&nbsp;</h2>
+          <p class="book-card__byline">
+            <span id="book-author"></span>
+            <span class="byline-sep" aria-hidden="true">&middot;</span>
+            <span id="book-year"></span>
+            <span class="byline-sep" aria-hidden="true">&middot;</span>
+            <span id="book-pages"></span>
+          </p>
+
+          <p class="book-card__synopsis" id="book-synopsis"></p>
+
+          <div class="book-card__actions">
+            <button type="button" id="save-btn" class="btn btn--ghost" aria-pressed="false">Save to list</button>
+            <button type="button" id="copy-link-btn" class="btn btn--ghost">Copy link</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="roll-controls">
+        <button type="button" id="surprise-btn" class="btn btn--primary btn--large">Surprise Me</button>
+        <button type="button" id="another-btn" class="btn btn--secondary btn--large">Pick another</button>
+      </div>
+    </section>
+
+    <section class="empty-state" id="empty-state" hidden>
+      <p class="empty-state__title">No novels match these filters.</p>
+      <p class="empty-state__body">Try widening the shelf, era, or length &mdash; or reset filters to see the whole catalog again.</p>
+      <button type="button" class="btn btn--secondary" id="empty-reset-btn">Reset filters</button>
+    </section>
+  </main>
+
+  <aside class="saved-panel" id="saved-panel" aria-label="Saved novels">
+    <div class="saved-panel__header">
+      <h2>Saved novels</h2>
+      <button type="button" id="saved-close-btn" class="icon-btn" aria-label="Close saved list">✕</button>
+    </div>
+    <ul class="saved-list" id="saved-list"></ul>
+  </aside>
+  <div class="saved-panel-scrim" id="saved-panel-scrim"></div>
+
+  <footer class="site-footer">
+    <p>Synopses written for this catalog &mdash; spoiler-free by design. Cover art, when shown, is fetched live from Open Library.</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    document.getElementById("empty-reset-btn").addEventListener("click", () => {
+      document.getElementById("reset-filters-btn").click();
+    });
+    document.getElementById("saved-panel-scrim").addEventListener("click", () => {
+      document.getElementById("saved-panel").classList.remove("is-open");
+    });
+  </script>
+</body>
+</html>
