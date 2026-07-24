@@ -25,6 +25,8 @@
   let lastShownId = null;
   let currentBook = null;
   let coverCache = loadCoverCache();
+  let spinToken = 0;      // increments per spin; stale spins bail out
+  let spinTimer = null;   // interval id of the spin currently animating
 
   const state = {
     genres: new Set(),
@@ -390,8 +392,11 @@
 
   const FLASHCARD_COUNT = 5; // quick flashes shown before settling on the real pick
   const FLASHCARD_INTERVAL_MS = 80;
+  // How long the spin will wait on cover images before starting anyway. Covers
+  // are local files, so this is only ever hit on a cold first spin.
+  const FLASH_PRELOAD_BUDGET_MS = 300;
 
-  function paintFrame(book, { withFallbackCover = true } = {}) {
+  function paintFrame(book, { paintCover = true } = {}) {
     document.getElementById("book-title").textContent = book.title;
     document.getElementById("book-author").textContent = book.author;
     document.getElementById("book-year").textContent = book.year;
@@ -407,10 +412,8 @@
       tagsEl.appendChild(tag);
     });
 
-    if (withFallbackCover) {
-      const wrap = document.getElementById("cover-wrap");
-      wrap.classList.add("cover-wrap--fallback");
-      wrap.innerHTML = fallbackCoverMarkup(book);
+    if (paintCover) {
+      paintCoverSync(document.getElementById("cover-wrap"), book);
     }
   }
 
@@ -422,12 +425,76 @@
       </div>`;
   }
 
+  // Decoded cover images, kept across spins so a book flashed once is instant
+  // every time after. The dev server sends no-store, so this map — not the HTTP
+  // cache — is what makes repeat flashes free.
+  const coverImgs = new Map();
+
+  function preloadCover(book) {
+    if (!book.coverUrl) return null;
+    let img = coverImgs.get(book.id);
+    if (!img) {
+      img = new Image();
+      img.alt = "";
+      img.decoding = "async";
+      img.src = book.coverUrl;
+      coverImgs.set(book.id, img);
+    }
+    return img;
+  }
+
+  function readyCover(book) {
+    const img = coverImgs.get(book.id);
+    return img && img.complete && img.naturalWidth >= 10 ? img : null;
+  }
+
+  // Synchronous by design: mounts only an already-decoded image, so it is safe
+  // to call at flashcard speed. A cover that isn't ready shows the title card
+  // rather than a blank slot.
+  function paintCoverSync(wrap, book) {
+    const img = readyCover(book);
+    if (img) {
+      wrap.classList.remove("cover-wrap--fallback");
+      wrap.replaceChildren(img);
+    } else {
+      wrap.classList.add("cover-wrap--fallback");
+      wrap.innerHTML = fallbackCoverMarkup(book);
+    }
+  }
+
+  // Resolves once every cover is decoded, or once the budget runs out —
+  // whichever comes first, so a slow image can never stall the animation.
+  function coversReady(books, budgetMs) {
+    const loads = books.map((book) => {
+      const img = preloadCover(book);
+      if (!img || img.complete) return Promise.resolve();
+      return new Promise((resolve) => {
+        img.addEventListener("load", resolve, { once: true });
+        img.addEventListener("error", resolve, { once: true });
+      });
+    });
+    return Promise.race([
+      Promise.all(loads),
+      new Promise((resolve) => window.setTimeout(resolve, budgetMs)),
+    ]);
+  }
+
   function renderBook(book, { animate = true } = {}) {
     const card = document.getElementById("book-card");
     const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+    // Claim the stage. Any spin still in flight is now stale and must not paint
+    // again — otherwise its settle() would overwrite this pick, leaving the card
+    // showing one book while the hash points at another.
+    const token = ++spinToken;
+    if (spinTimer !== null) {
+      window.clearInterval(spinTimer);
+      spinTimer = null;
+      card.classList.remove("is-flashing");
+    }
+
     function settle() {
-      paintFrame(book, { withFallbackCover: false });
+      paintFrame(book, { paintCover: false });
       updateSaveButton(book.id);
       renderCover(book);
       card.classList.add("is-settling");
@@ -435,7 +502,7 @@
     }
 
     if (!animate || prefersReduced) {
-      paintFrame(book, { withFallbackCover: false });
+      paintFrame(book, { paintCover: false });
       updateSaveButton(book.id);
       renderCover(book);
       return;
@@ -444,24 +511,36 @@
     const pool = filterPool(ALL_BOOKS, currentFilters());
     const candidates = pool.length > 1 ? pool : ALL_BOOKS;
 
-    card.classList.add("is-flashing");
-    let shown = 0;
+    // Draw the whole sequence up front rather than per tick, so the covers it
+    // needs can be preloaded before the first frame is shown.
+    const sequence = [];
     let lastFlashId = null;
-    const timer = window.setInterval(() => {
-      shown++;
-      if (shown > FLASHCARD_COUNT) {
-        window.clearInterval(timer);
-        card.classList.remove("is-flashing");
-        settle();
-        return;
-      }
+    for (let i = 0; i < FLASHCARD_COUNT; i++) {
       let flash;
       do {
         flash = candidates[Math.floor(Math.random() * candidates.length)];
       } while (flash.id === lastFlashId && candidates.length > 1);
       lastFlashId = flash.id;
-      paintFrame(flash);
-    }, FLASHCARD_INTERVAL_MS);
+      sequence.push(flash);
+    }
+
+    card.classList.add("is-flashing");
+    coversReady([...sequence, book], FLASH_PRELOAD_BUDGET_MS).then(() => {
+      if (token !== spinToken) return; // superseded while covers were loading
+      let shown = 0;
+      spinTimer = window.setInterval(() => {
+        if (token !== spinToken) return; // a newer spin already cleared us
+        if (shown >= FLASHCARD_COUNT) {
+          window.clearInterval(spinTimer);
+          spinTimer = null;
+          card.classList.remove("is-flashing");
+          settle();
+          return;
+        }
+        paintFrame(sequence[shown]);
+        shown++;
+      }, FLASHCARD_INTERVAL_MS);
+    });
   }
 
   function renderCover(book) {
@@ -474,6 +553,26 @@
       wrap.innerHTML = fallbackCoverMarkup(book);
     };
 
+    // Curated URLs in books.json win over anything the runtime lookup cached
+    // earlier, so a stale cache can't pin a book to a wrong-edition cover.
+    if (book.coverUrl) {
+      const img = preloadCover(book);
+      if (img.complete) {
+        // Already decoded by the spin that just ran — mount without a repaint.
+        if (img.naturalWidth >= 10) paintCoverSync(wrap, book);
+        else fallback();
+        return;
+      }
+      fallback();
+      img.addEventListener("load", () => {
+        if (currentBook && currentBook.id === book.id) paintCoverSync(wrap, book);
+      }, { once: true });
+      img.addEventListener("error", () => {
+        if (currentBook && currentBook.id === book.id) fallback();
+      }, { once: true });
+      return;
+    }
+
     const cached = coverCache[book.id];
     if (cached === null) {
       fallback();
@@ -481,10 +580,6 @@
     }
     if (cached) {
       mountCoverImg(wrap, cached, fallback);
-      return;
-    }
-    if (book.coverUrl) {
-      mountCoverImg(wrap, book.coverUrl, fallback);
       return;
     }
 
@@ -505,9 +600,11 @@
 
   function mountCoverImg(wrap, src, onFail) {
     wrap.classList.remove("cover-wrap--fallback");
+    // No loading="lazy" here: the image is held detached until it loads, and a
+    // detached lazy image never enters the viewport, so it would never load at
+    // all. Only one cover is ever on screen, so there is nothing to defer.
     const img = new Image();
     img.alt = "";
-    img.loading = "lazy";
     img.decoding = "async";
     img.onload = () => {
       if (img.naturalWidth < 10 || img.naturalHeight < 10) {
